@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<teststandfileheader type='SequenceFile' fileversion='920' productname='TestStand' productversion='2019 (19.0.0.170)' compatibleversion='19.0.0.0' buildversion='19.0.0.170' xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ni.com/TestStand/19.0.0/SequenceFile">
+	<typelist>
+		<typedef alwayssavetype='false' additionaltypeflags='0' typelistordernum='0'>
+			<Path classname='PathValue' isroottypedef='true' typecategory='3' timestamp='1578354167' typeversion='19.0.0.170' typelastmodversion='19.0.0.170' typeminprodversion='19.0.0.0' typeflags='33554436'>
+				<value/>
+			</Path>
+		</typedef>
+	</typelist>
+	<Data classname='SequenceFileData' valueflags='4194304'>
+		<subprops>
+			<Seq classname='Objs' valueflags='4194304'>
+				<value lbound='[0]' ubound='[0]'>
+					<value>
+						<Sequence name='MainSequence'>
+							<subprops>
+								<Parameters classname='Obj' valueflags='4456448'/>
+								<Locals classname='Obj' valueflags='4194304'>
+									<subprops>
+										<ResultList classname='Objs' valueflags='4194304'>
+											<value lbound='[0]' ubound='[]'>
+												<elemproto>
+													<_NAME_IN_ATTRIBUTE_ name='' classname='TEResult'/>
+												</elemproto>
+											</value>
+										</ResultList>
+									</subprops>
+								</Locals>
+								<Main classname='Objs' valueflags='4194304'>
+									<value lbound='[0]' ubound='[]'/>
+								</Main>
+								<Setup classname='Objs' valueflags='4194304'>
+									<value lbound='[0]' ubound='[]'/>
+								</Setup>
+								<Cleanup classname='Objs' valueflags='4194304'>
+									<value lbound='[0]' ubound='[]'/>
+								</Cleanup>
+								<RecordResults classname='Bool' valueflags='4194312'>
+									<value>true</value>
+								</RecordResults>
+								<RTS classname='Obj' valueflags='4456456'>
+									<subprops>
+										<Type classname='Num' valueflags='4194304'>
+											<value>0</value>
+										</Type>
+										<OptimizeNonReentrantCalls classname='Bool' valueflags='4194304'>
+											<value>true</value>
+										</OptimizeNonReentrantCalls>
+										<EPNameExpr classname='Str' valueflags='4194304'>
+											<value>"Unnamed Entry Point"</value>
+										</EPNameExpr>
+										<EPEnabledExpr classname='Str' valueflags='4194304'>
+											<value>True</value>
+										</EPEnabledExpr>
+										<EPMenuHint classname='Str' valueflags='4194304'>
+											<value/>
+										</EPMenuHint>
+										<EPIgnoreClient classname='Bool' valueflags='4194304'>
+											<value>false</value>
+										</EPIgnoreClient>
+										<EPInitiallyHidden classname='Bool' valueflags='4194304'>
+											<value>false</value>
+										</EPInitiallyHidden>
+										<EPCheckToSaveTitledFile classname='Bool' valueflags='4194304'>
+											<value>true</value>
+										</EPCheckToSaveTitledFile>
+										<ShowEPAlways classname='Bool' valueflags='4194304'>
+											<value>false</value>
+										</ShowEPAlways>
+										<ShowEPForFileWin classname='Bool' valueflags='4194304'>
+											<value>true</value>
+										</ShowEPForFileWin>
+										<ShowEPForExeWin classname='Bool' valueflags='4194304'>
+											<value>false</value>
+										</ShowEPForExeWin>
+										<ShowEPForEditorOnly classname='Bool' valueflags='4194304'>
+											<value>false</value>
+										</ShowEPForEditorOnly>
+										<AllowIntExeOfEP classname='Bool' valueflags='4194304'>
+											<value>false</value>
+										</AllowIntExeOfEP>
+										<CopyStepsOnOverriding classname='Bool' valueflags='4194304'>
+											<value>true</value>
+										</CopyStepsOnOverriding>
+										<Priority classname='Num' valueflags='4194304'>
+											<value>2953567917</value>
+										</Priority>
+									</subprops>
+								</RTS>
+								<Requirements classname='Obj' valueflags='4456456'>
+									<subprops>
+										<Links classname='Strs' valueflags='71303168'>
+											<value lbound='[0]' ubound='[]'/>
+										</Links>
+									</subprops>
+								</Requirements>
+								<FailureAction classname='Num' valueflags='4194312'>
+									<value>2</value>
+								</FailureAction>
+							</subprops>
+						</Sequence>
+					</value>
+				</value>
+			</Seq>
+			<FileGlobalDefaults classname='Obj' valueflags='4194304'/>
+			<ModelFile typename='Path' xsi:type='Path' classname='PathValue' valueflags='4194312'>
+				<value/>
+			</ModelFile>
+			<LoadOpt classname='Str' valueflags='4194312'>
+				<value>UseStepLoadOpt</value>
+			</LoadOpt>
+			<UnloadOpt classname='Str' valueflags='4194312'>
+				<value>UseStepUnloadOpt</value>
+			</UnloadOpt>
+			<Version classname='Str' valueflags='4194312'>
+				<value>0.0.0.0</value>
+			</Version>
+			<BatchSync classname='Num' valueflags='4194312'>
+				<value>1</value>
+			</BatchSync>
+			<SFGlobalsScope classname='Num' valueflags='4194312'>
+				<value>0</value>
+			</SFGlobalsScope>
+			<Type classname='Num' valueflags='4194312'>
+				<value>0</value>
+			</Type>
+			<ModelOption classname='Num' valueflags='4194312'>
+				<value>0</value>
+			</ModelOption>
+			<Requirements classname='Obj' valueflags='4194305'>
+				<subprops>
+					<Links classname='Strs' valueflags='71303168'>
+						<value lbound='[0]' ubound='[]'/>
+					</Links>
+				</subprops>
+			</Requirements>
+		</subprops>
+	</Data>
+</teststandfileheader>
