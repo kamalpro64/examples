@@ -1,0 +1,4 @@
+The python module sphinx automatically generates your documentation into nice format
+
+https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/
+https://towardsdatascience.com/3-python-tools-data-scientists-can-use-for-production-quality-code-604a5e0acf9a

@@ -1,0 +1,13 @@
+PEP 8 Style Guide for Python Code, Link: https://www.python.org/dev/peps/pep-0008/
+https://realpython.com/python-testing/
+
+Use python module 'flake8' to automatically check python code for compliance
+
+pip install flake8
+flake8 filename.py
+
+
+Reference: https://towardsdatascience.com/3-python-tools-data-scientists-can-use-for-production-quality-code-604a5e0acf9a
+
+
+Note: A less common linter that automatically changes your code is called 'black'
