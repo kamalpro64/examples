@@ -1,0 +1,42 @@
+﻿Description,SCPI
+Clear,*CLS
+Reset,*RST
+Read Identity,*IDN?
+Measurement Mode Continuous,:init:cont on
+Set Freq Center,:freq:center <num>
+Set Freq Start,:freq:start <num>
+Set Freq Stop,::freq:stop <num>
+Set Freq Span,:freq:span <num>
+Set RBW,:band <num>
+Set VBW,:band:vid <num>
+Set Ref Level,:disp:wind:trac:y:rlev <num>
+Peak Search,:calc:mark1:state on;  :calc;mark1:max:peak
+Set Next Peak,:calc:mark1:max:next
+Set Next Peak Right,:calc:mark1:max:right
+Set Next Peak Left,:calc:mark1:max:left
+Set Marker On,:calc:mark1:state on
+Set Marker Normal,:calc:mark1:mode pos
+Set Marker Delta,:calc:mark1:mode delta
+Set Marker Off,:calc:mark1:mode off
+Set Noise Marker On,:calc:mark1:func nois
+Set Noise Marker Off,:calc:mark:func off
+Set Center Freq to Marker Value,:calc:mark:set:cent
+Set Delta Marker On,:calc:mark<marker num>:ref <ref_marker_num>
+Set Delta Marker Freq Offset,:calc:mark<marker_num>:x <freq_offset>
+Set Attenuation,:sens:pow:rf:att <attenuation>
+Set PreAmp On,:pow:gain on
+Set PreAmp Off,:pow:gain off
+Set Max Hold On,:trac:mode maxh
+Set Max Hold Off,:trac:mode writ
+Set Peak Table On,:calc:mark:peak:tabl:stat on
+Set Peak Table Off,:calc:mark:peak:tabl:stat off
+,
+Get Freq,:calc:mark1:x?
+Get Ampl,:calc:mark1:y?
+Get Attenuation,:sens:pow:rf:att?
+Get External Gain,:sens:corr:sa:rf:gain?
+Save Image,:mmem:stor:scr <filename>
+Save Trace,:mmem:stor:trac:data trace1
+,
+,
+Note: mark1 can be substituted by markers 1-10,
